@@ -1,5 +1,5 @@
-/.DS_Store
+.DS_Store
 node_modules/
 .env
-/service-account.json
+service-account.json
 .vercel

@@ -1,0 +1,24 @@
+{
+  "name": "e-bike-calendar-api",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ak010420/ainohot-try.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/ak010420/ainohot-try/issues"
+  },
+  "homepage": "https://github.com/ak010420/ainohot-try#readme",
+  "dependencies": {
+    "googleapis": "^146.0.0"
+  }
+}

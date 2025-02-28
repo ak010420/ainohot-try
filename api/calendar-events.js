@@ -2,7 +2,9 @@ const { google } = require('googleapis');
 
 module.exports = async (req, res) => {
   // CORSヘッダーを設定
+  res.setHeader('Access-Control-Allow-Origin', 'https://ainohot-try-reservations.powerappsportals.com');
   res.setHeader('Access-Control-Allow-Credentials', true);
+  res.setHeader('Access-Control-Allow-Headers', 'Content-Type');
   res.setHeader('Access-Control-Allow-Origin', process.env.ALLOWED_ORIGIN || '*');
   res.setHeader('Access-Control-Allow-Methods', 'GET,OPTIONS,POST');
   res.setHeader('Access-Control-Allow-Headers', 'X-CSRF-Token, X-Requested-With, Accept, Accept-Version, Content-Length, Content-MD5, Content-Type, Date, X-Api-Version');
